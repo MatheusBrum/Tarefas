@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840DDB921417E37900DFCC69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840DDB911417E37900DFCC69 /* UIKit.framework */; };
+		840DDB941417E37900DFCC69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840DDB931417E37900DFCC69 /* Foundation.framework */; };
+		840DDB961417E37900DFCC69 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840DDB951417E37900DFCC69 /* CoreGraphics.framework */; };
+		840DDB9C1417E37900DFCC69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 840DDB9A1417E37900DFCC69 /* InfoPlist.strings */; };
+		840DDB9E1417E37900DFCC69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 840DDB9D1417E37900DFCC69 /* main.m */; };
+		840DDBA21417E37900DFCC69 /* TarefasAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 840DDBA11417E37900DFCC69 /* TarefasAppDelegate.m */; };
+		840DDBA51417E37900DFCC69 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840DDBA31417E37900DFCC69 /* MainWindow.xib */; };
+		840DDBA81417E37900DFCC69 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840DDBA71417E37900DFCC69 /* RootViewController.m */; };
+		840DDBAB1417E37900DFCC69 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840DDBA91417E37900DFCC69 /* RootViewController.xib */; };
+		840DDBB31417E37900DFCC69 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840DDBB21417E37900DFCC69 /* SenTestingKit.framework */; };
+		840DDBB41417E37900DFCC69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840DDB911417E37900DFCC69 /* UIKit.framework */; };
+		840DDBB51417E37900DFCC69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840DDB931417E37900DFCC69 /* Foundation.framework */; };
+		840DDBB61417E37900DFCC69 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840DDB951417E37900DFCC69 /* CoreGraphics.framework */; };
+		840DDBBE1417E37900DFCC69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 840DDBBC1417E37900DFCC69 /* InfoPlist.strings */; };
+		840DDBC01417E37900DFCC69 /* TarefasTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 840DDBBF1417E37900DFCC69 /* TarefasTests.h */; };
+		840DDBC21417E37900DFCC69 /* TarefasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840DDBC11417E37900DFCC69 /* TarefasTests.m */; };
+		840DDBD21417E39C00DFCC69 /* BTAdd@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 840DDBCB1417E39C00DFCC69 /* BTAdd@2x.png */; };
+		840DDBD31417E39C00DFCC69 /* BTAdd.png in Resources */ = {isa = PBXBuildFile; fileRef = 840DDBCC1417E39C00DFCC69 /* BTAdd.png */; };
+		840DDBD41417E39C00DFCC69 /* TopBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 840DDBCD1417E39C00DFCC69 /* TopBar.png */; };
+		840DDBD51417E39C00DFCC69 /* TopBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 840DDBCE1417E39C00DFCC69 /* TopBar@2x.png */; };
+		840DDBD61417E39C00DFCC69 /* MBInput.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840DDBCF1417E39C00DFCC69 /* MBInput.xib */; };
+		840DDBD71417E39C00DFCC69 /* MBInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 840DDBD11417E39C00DFCC69 /* MBInput.m */; };
+		840DDBD91417E3CF00DFCC69 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840DDBD81417E3CF00DFCC69 /* QuartzCore.framework */; };
+		840DDBED1417EFAB00DFCC69 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 840DDBEB1417EFAB00DFCC69 /* GradientView.m */; };
+		840DDBF51417F1D900DFCC69 /* ShadowedTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 840DDBF31417F1D900DFCC69 /* ShadowedTableView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		840DDBB71417E37900DFCC69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 840DDB841417E37900DFCC69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 840DDB8C1417E37900DFCC69;
+			remoteInfo = Tarefas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		840DDB8D1417E37900DFCC69 /* Tarefas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tarefas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		840DDB911417E37900DFCC69 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		840DDB931417E37900DFCC69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		840DDB951417E37900DFCC69 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		840DDB991417E37900DFCC69 /* Tarefas-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tarefas-Info.plist"; sourceTree = "<group>"; };
+		840DDB9B1417E37900DFCC69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		840DDB9D1417E37900DFCC69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		840DDB9F1417E37900DFCC69 /* Tarefas-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tarefas-Prefix.pch"; sourceTree = "<group>"; };
+		840DDBA01417E37900DFCC69 /* TarefasAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TarefasAppDelegate.h; sourceTree = "<group>"; };
+		840DDBA11417E37900DFCC69 /* TarefasAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TarefasAppDelegate.m; sourceTree = "<group>"; };
+		840DDBA41417E37900DFCC69 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		840DDBA61417E37900DFCC69 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		840DDBA71417E37900DFCC69 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		840DDBAA1417E37900DFCC69 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		840DDBB11417E37900DFCC69 /* TarefasTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TarefasTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		840DDBB21417E37900DFCC69 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		840DDBBB1417E37900DFCC69 /* TarefasTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TarefasTests-Info.plist"; sourceTree = "<group>"; };
+		840DDBBD1417E37900DFCC69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		840DDBBF1417E37900DFCC69 /* TarefasTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TarefasTests.h; sourceTree = "<group>"; };
+		840DDBC11417E37900DFCC69 /* TarefasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TarefasTests.m; sourceTree = "<group>"; };
+		840DDBCB1417E39C00DFCC69 /* BTAdd@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BTAdd@2x.png"; sourceTree = "<group>"; };
+		840DDBCC1417E39C00DFCC69 /* BTAdd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BTAdd.png; sourceTree = "<group>"; };
+		840DDBCD1417E39C00DFCC69 /* TopBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TopBar.png; sourceTree = "<group>"; };
+		840DDBCE1417E39C00DFCC69 /* TopBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TopBar@2x.png"; sourceTree = "<group>"; };
+		840DDBCF1417E39C00DFCC69 /* MBInput.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MBInput.xib; sourceTree = "<group>"; };
+		840DDBD01417E39C00DFCC69 /* MBInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBInput.h; sourceTree = "<group>"; };
+		840DDBD11417E39C00DFCC69 /* MBInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBInput.m; sourceTree = "<group>"; };
+		840DDBD81417E3CF00DFCC69 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		840DDBEB1417EFAB00DFCC69 /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
+		840DDBEC1417EFAB00DFCC69 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
+		840DDBF31417F1D900DFCC69 /* ShadowedTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowedTableView.m; sourceTree = "<group>"; };
+		840DDBF41417F1D900DFCC69 /* ShadowedTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowedTableView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		840DDB8A1417E37900DFCC69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840DDBD91417E3CF00DFCC69 /* QuartzCore.framework in Frameworks */,
+				840DDB921417E37900DFCC69 /* UIKit.framework in Frameworks */,
+				840DDB941417E37900DFCC69 /* Foundation.framework in Frameworks */,
+				840DDB961417E37900DFCC69 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840DDBAD1417E37900DFCC69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840DDBB31417E37900DFCC69 /* SenTestingKit.framework in Frameworks */,
+				840DDBB41417E37900DFCC69 /* UIKit.framework in Frameworks */,
+				840DDBB51417E37900DFCC69 /* Foundation.framework in Frameworks */,
+				840DDBB61417E37900DFCC69 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		840DDB821417E37900DFCC69 = {
+			isa = PBXGroup;
+			children = (
+				840DDB971417E37900DFCC69 /* Tarefas */,
+				840DDBB91417E37900DFCC69 /* TarefasTests */,
+				840DDB901417E37900DFCC69 /* Frameworks */,
+				840DDB8E1417E37900DFCC69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		840DDB8E1417E37900DFCC69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				840DDB8D1417E37900DFCC69 /* Tarefas.app */,
+				840DDBB11417E37900DFCC69 /* TarefasTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		840DDB901417E37900DFCC69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				840DDBD81417E3CF00DFCC69 /* QuartzCore.framework */,
+				840DDB911417E37900DFCC69 /* UIKit.framework */,
+				840DDB931417E37900DFCC69 /* Foundation.framework */,
+				840DDB951417E37900DFCC69 /* CoreGraphics.framework */,
+				840DDBB21417E37900DFCC69 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		840DDB971417E37900DFCC69 /* Tarefas */ = {
+			isa = PBXGroup;
+			children = (
+				840DDBFE1417F4B300DFCC69 /* ShadowedTableView */,
+				840DDBEE1417F0A800DFCC69 /* GradientView */,
+				840DDBDA1417E45C00DFCC69 /* MBInput */,
+				840DDBA01417E37900DFCC69 /* TarefasAppDelegate.h */,
+				840DDBA11417E37900DFCC69 /* TarefasAppDelegate.m */,
+				840DDBA31417E37900DFCC69 /* MainWindow.xib */,
+				840DDBA61417E37900DFCC69 /* RootViewController.h */,
+				840DDBA71417E37900DFCC69 /* RootViewController.m */,
+				840DDBA91417E37900DFCC69 /* RootViewController.xib */,
+				840DDB981417E37900DFCC69 /* Supporting Files */,
+			);
+			path = Tarefas;
+			sourceTree = "<group>";
+		};
+		840DDB981417E37900DFCC69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				840DDB991417E37900DFCC69 /* Tarefas-Info.plist */,
+				840DDB9A1417E37900DFCC69 /* InfoPlist.strings */,
+				840DDB9D1417E37900DFCC69 /* main.m */,
+				840DDB9F1417E37900DFCC69 /* Tarefas-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		840DDBB91417E37900DFCC69 /* TarefasTests */ = {
+			isa = PBXGroup;
+			children = (
+				840DDBBF1417E37900DFCC69 /* TarefasTests.h */,
+				840DDBC11417E37900DFCC69 /* TarefasTests.m */,
+				840DDBBA1417E37900DFCC69 /* Supporting Files */,
+			);
+			path = TarefasTests;
+			sourceTree = "<group>";
+		};
+		840DDBBA1417E37900DFCC69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				840DDBBB1417E37900DFCC69 /* TarefasTests-Info.plist */,
+				840DDBBC1417E37900DFCC69 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		840DDBDA1417E45C00DFCC69 /* MBInput */ = {
+			isa = PBXGroup;
+			children = (
+				840DDBCB1417E39C00DFCC69 /* BTAdd@2x.png */,
+				840DDBCC1417E39C00DFCC69 /* BTAdd.png */,
+				840DDBCD1417E39C00DFCC69 /* TopBar.png */,
+				840DDBCE1417E39C00DFCC69 /* TopBar@2x.png */,
+				840DDBCF1417E39C00DFCC69 /* MBInput.xib */,
+				840DDBD01417E39C00DFCC69 /* MBInput.h */,
+				840DDBD11417E39C00DFCC69 /* MBInput.m */,
+			);
+			name = MBInput;
+			sourceTree = "<group>";
+		};
+		840DDBEE1417F0A800DFCC69 /* GradientView */ = {
+			isa = PBXGroup;
+			children = (
+				840DDBEC1417EFAB00DFCC69 /* GradientView.h */,
+				840DDBEB1417EFAB00DFCC69 /* GradientView.m */,
+			);
+			name = GradientView;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		840DDBFE1417F4B300DFCC69 /* ShadowedTableView */ = {
+			isa = PBXGroup;
+			children = (
+				840DDBF31417F1D900DFCC69 /* ShadowedTableView.m */,
+				840DDBF41417F1D900DFCC69 /* ShadowedTableView.h */,
+			);
+			name = ShadowedTableView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		840DDB8C1417E37900DFCC69 /* Tarefas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840DDBC51417E37900DFCC69 /* Build configuration list for PBXNativeTarget "Tarefas" */;
+			buildPhases = (
+				840DDB891417E37900DFCC69 /* Sources */,
+				840DDB8A1417E37900DFCC69 /* Frameworks */,
+				840DDB8B1417E37900DFCC69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tarefas;
+			productName = Tarefas;
+			productReference = 840DDB8D1417E37900DFCC69 /* Tarefas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		840DDBB01417E37900DFCC69 /* TarefasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840DDBC81417E37900DFCC69 /* Build configuration list for PBXNativeTarget "TarefasTests" */;
+			buildPhases = (
+				840DDBAC1417E37900DFCC69 /* Sources */,
+				840DDBAD1417E37900DFCC69 /* Frameworks */,
+				840DDBAE1417E37900DFCC69 /* Resources */,
+				840DDBAF1417E37900DFCC69 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				840DDBB81417E37900DFCC69 /* PBXTargetDependency */,
+			);
+			name = TarefasTests;
+			productName = TarefasTests;
+			productReference = 840DDBB11417E37900DFCC69 /* TarefasTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		840DDB841417E37900DFCC69 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 840DDB871417E37900DFCC69 /* Build configuration list for PBXProject "Tarefas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 840DDB821417E37900DFCC69;
+			productRefGroup = 840DDB8E1417E37900DFCC69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				840DDB8C1417E37900DFCC69 /* Tarefas */,
+				840DDBB01417E37900DFCC69 /* TarefasTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		840DDB8B1417E37900DFCC69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840DDB9C1417E37900DFCC69 /* InfoPlist.strings in Resources */,
+				840DDBA51417E37900DFCC69 /* MainWindow.xib in Resources */,
+				840DDBAB1417E37900DFCC69 /* RootViewController.xib in Resources */,
+				840DDBD21417E39C00DFCC69 /* BTAdd@2x.png in Resources */,
+				840DDBD31417E39C00DFCC69 /* BTAdd.png in Resources */,
+				840DDBD41417E39C00DFCC69 /* TopBar.png in Resources */,
+				840DDBD51417E39C00DFCC69 /* TopBar@2x.png in Resources */,
+				840DDBD61417E39C00DFCC69 /* MBInput.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840DDBAE1417E37900DFCC69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840DDBBE1417E37900DFCC69 /* InfoPlist.strings in Resources */,
+				840DDBC01417E37900DFCC69 /* TarefasTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		840DDBAF1417E37900DFCC69 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		840DDB891417E37900DFCC69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840DDB9E1417E37900DFCC69 /* main.m in Sources */,
+				840DDBA21417E37900DFCC69 /* TarefasAppDelegate.m in Sources */,
+				840DDBA81417E37900DFCC69 /* RootViewController.m in Sources */,
+				840DDBD71417E39C00DFCC69 /* MBInput.m in Sources */,
+				840DDBED1417EFAB00DFCC69 /* GradientView.m in Sources */,
+				840DDBF51417F1D900DFCC69 /* ShadowedTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840DDBAC1417E37900DFCC69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840DDBC21417E37900DFCC69 /* TarefasTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		840DDBB81417E37900DFCC69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 840DDB8C1417E37900DFCC69 /* Tarefas */;
+			targetProxy = 840DDBB71417E37900DFCC69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		840DDB9A1417E37900DFCC69 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840DDB9B1417E37900DFCC69 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		840DDBA31417E37900DFCC69 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840DDBA41417E37900DFCC69 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		840DDBA91417E37900DFCC69 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840DDBAA1417E37900DFCC69 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		840DDBBC1417E37900DFCC69 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840DDBBD1417E37900DFCC69 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		840DDBC31417E37900DFCC69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		840DDBC41417E37900DFCC69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		840DDBC61417E37900DFCC69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tarefas/Tarefas-Prefix.pch";
+				INFOPLIST_FILE = "Tarefas/Tarefas-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		840DDBC71417E37900DFCC69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tarefas/Tarefas-Prefix.pch";
+				INFOPLIST_FILE = "Tarefas/Tarefas-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		840DDBC91417E37900DFCC69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tarefas.app/Tarefas";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tarefas/Tarefas-Prefix.pch";
+				INFOPLIST_FILE = "TarefasTests/TarefasTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		840DDBCA1417E37900DFCC69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tarefas.app/Tarefas";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tarefas/Tarefas-Prefix.pch";
+				INFOPLIST_FILE = "TarefasTests/TarefasTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		840DDB871417E37900DFCC69 /* Build configuration list for PBXProject "Tarefas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840DDBC31417E37900DFCC69 /* Debug */,
+				840DDBC41417E37900DFCC69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840DDBC51417E37900DFCC69 /* Build configuration list for PBXNativeTarget "Tarefas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840DDBC61417E37900DFCC69 /* Debug */,
+				840DDBC71417E37900DFCC69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		840DDBC81417E37900DFCC69 /* Build configuration list for PBXNativeTarget "TarefasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840DDBC91417E37900DFCC69 /* Debug */,
+				840DDBCA1417E37900DFCC69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 840DDB841417E37900DFCC69 /* Project object */;
+}
